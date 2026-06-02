@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Indrabhaskar Nexus Service</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indrabhaskar Nexus Service</title>
 
-  <style>
-    body{
-      font-family: Arial;
-      margin:0;
-      padding:0;
-      text-align:center;
-      background:#f4f6f9;
-    }
+<style>
+body{
+  font-family: Arial;
+  margin:0;
+  padding:0;
+  text-align:center;
+  background:#f4f6f9;
+}
 
-    header{
-      background:#0d6efd;
-      color:white;
-      padding:30px 10px;
-    }
+header{
+  background:#0d6efd;
+  color:white;
+  padding:30px 10px;
+}
 
-    section{
-      padding:30px 20px;
-    }
+section{
+  padding:30px 20px;
+}
 
-    .card{
-      background:white;
-      padding:20px;
-      margin:10px auto;
-      width:90%;
-      max-width:500px;
-      border-radius:10px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-    }
+.card{
+  background:white;
+  padding:20px;
+  margin:10px auto;
+  width:90%;
+  max-width:500px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
 
-    .btn{
-      display:inline-block;
-      padding:12px 20px;
-      margin-top:10px;
-      background:#25D366;
-      color:white;
-      text-decoration:none;
-      border-radius:5px;
-      font-weight:bold;
-    }
+.btn{
+  display:inline-block;
+  padding:12px 20px;
+  margin-top:10px;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+}
 
-    input{
-      width:90%;
-      padding:10px;
-      margin:5px 0;
-    }
+input{
+  width:90%;
+  padding:10px;
+  margin:5px 0;
+}
 
-    button{
-      padding:10px 20px;
-      background:#0d6efd;
-      color:white;
-      border:none;
-      border-radius:5px;
-    }
-  </style>
+button{
+  padding:10px 20px;
+  background:#0d6efd;
+  color:white;
+  border:none;
+  border-radius:5px;
+}
+</style>
+
 </head>
 
 <body>
@@ -87,9 +88,9 @@
   <div class="card">
     <h2>Lead Form</h2>
     <form>
-      <input type="text" placeholder="Your Name" required><br>
-      <input type="tel" placeholder="Mobile Number" required><br>
-      <input type="text" placeholder="Requirement"><br>
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <input type="text" placeholder="Requirement">
       <button type="submit">Submit</button>
     </form>
   </div>
