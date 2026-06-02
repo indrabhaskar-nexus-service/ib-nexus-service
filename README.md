@@ -1,101 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Indrabhaskar Nexus Service</title>
-
-<style>
-body{
-  font-family: Arial;
-  margin:0;
-  padding:0;
-  text-align:center;
-  background:#f4f6f9;
-}
-
-header{
-  background:#0d6efd;
-  color:white;
-  padding:30px 10px;
-}
-
-section{
-  padding:30px 20px;
-}
-
-.card{
-  background:white;
-  padding:20px;
-  margin:10px auto;
-  width:90%;
-  max-width:500px;
-  border-radius:10px;
-  box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-.btn{
-  display:inline-block;
-  padding:12px 20px;
-  margin-top:10px;
-  background:#25D366;
-  color:white;
-  text-decoration:none;
-  border-radius:5px;
-  font-weight:bold;
-}
-
-input{
-  width:90%;
-  padding:10px;
-  margin:5px 0;
-}
-
-button{
-  padding:10px 20px;
-  background:#0d6efd;
-  color:white;
-  border:none;
-  border-radius:5px;
-}
-</style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indrabhaskar Nexus Service</title>
 </head>
 
-<body>
+<body style="margin:0;font-family:Arial;background:#f5f7fb;">
 
-<header>
+<header style="background:#0d6efd;color:white;text-align:center;padding:30px;">
   <h1>Indrabhaskar Nexus Service</h1>
   <p>Insurance • Business Growth • B2B Solutions</p>
 </header>
 
-<section>
+<section style="padding:20px;text-align:center;">
 
-  <div class="card">
+  <div style="background:white;padding:20px;margin:10px auto;max-width:500px;border-radius:10px;">
+    <h2>About Us</h2>
+    <p>We provide insurance and business growth solutions with trusted support.</p>
+  </div>
+
+  <div style="background:white;padding:20px;margin:10px auto;max-width:500px;border-radius:10px;">
     <h2>Our Services</h2>
-    <p>✔ Insurance Solutions</p>
+    <p>✔ Life Insurance</p>
+    <p>✔ Health Insurance</p>
     <p>✔ Business Development</p>
-    <p>✔ B2B Client Onboarding</p>
+    <p>✔ B2B Client Support</p>
   </div>
 
-  <div class="card">
+  <div style="background:white;padding:20px;margin:10px auto;max-width:500px;border-radius:10px;">
     <h2>Contact on WhatsApp</h2>
-    <a class="btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">
-      Chat on WhatsApp
-    </a>
-  </div>
 
-  <div class="card">
-    <h2>Lead Form</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="tel" placeholder="Mobile Number" required>
-      <input type="text" placeholder="Requirement">
-      <button type="submit">Submit</button>
-    </form>
+   <a href="https://wa.me/9800000000"
+   style="display:inline-block;background:#25D366;color:white;padding:12px 20px;text-decoration:none;border-radius:5px;">
+  Chat Now
+</a>
+
   </div>
 
 </section>
+
+<footer style="text-align:center;padding:15px;background:#222;color:white;">
+  © 2026 Indrabhaskar Nexus Service
+</footer>
 
 </body>
 </html>
